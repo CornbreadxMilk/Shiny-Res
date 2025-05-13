@@ -10,13 +10,29 @@
       margin: 0;
       padding: 0;
       font-family: 'Inconsolata', monospace;
+      background-color: #000;
+      color: #e0e0e0;
+      line-height: 1.6;
+      position: relative;
+      overflow-x: hidden;
+    }
+    .name {
+      font-family: "Bytesized", sans-serif;
+      font-size: 3rem;
+      font-weight: 400;
+      color: #fff;
+      text-aligh: center;
+      margin-top: 2rem;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inconsolata', monospace;
       background: url('https://i.pinimg.com/736x/b7/5d/02/b75d02f30fcbf29cc939502dee0d2fdf.jpg') no-repeat center center fixed;
       background-size: cover;
       color: #fff;
       line-height: 1.6;
-      overflow-x: hidden;
     }
-
     .container {
       position: relative;
       max-width: 1200px;
@@ -24,54 +40,76 @@
       padding: 1rem;
       z-index: 1;
     }
-
-    .name {
-      font-family: "Bytesized", sans-serif;
-      font-size: 3rem;
-      font-weight: 400;
-      color: #fff;
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    .subtitle {
-      font-size: 1.2rem;
-      color: #ccc;
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-
-    .contact {
-      font-size: 0.9rem;
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-
     h1, h2, h3 {
       color: #fefefe;
     }
-
     h1 {
       font-size: 2.5rem;
       margin-bottom: 0;
     }
-
+    .subtitle {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
     .section {
-      max-width: 700px;
-      margin-left: 10vw;
       margin-bottom: 2rem;
       padding-left: 1rem;
     }
-
+    .contact {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
     a {
       color: #fff;
       text-decoration: none;
     }
-
     a:hover {
       text-decoration: underline;
     }
-
-    .download {
+   .download {
       display: inline-block;
-      margin
+      margin-top: 1rem;
+      background: #444;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      color: #000;
+      text-decoration: none;
+   }
+    .download:hover {
+      background: #666;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.8rem;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="name">Arin Chambers</h1>
+    <h2 class="subtitle">Builder · Creative</h2>
+    <div class="contact">
+      Contact: <a href="mailto:hirearin@gmail.com">hirearin@gmail.com</a> 
+    </div>
+
+    <div class="section">
+      <h2></h2>
+      <p>Arin laid her foundation in the humanities at Marymount Manhattan College and currently pursues a Master’s degree in Linguistics from Middle Tennessee State University. Her 
+          professional journey spans roles as a researcher, tutor, and barista, reflecting a dynamic skillset with relational curiosity. She offers years of experience in leadership, data 
+          organization, and service. She has lived in Appalachia, China, and New York, but Antioch will always be her home. 
+        
+      <p>Arin offers creative insight from years of 3D modeling and Printing, writing, and music production. Her professional strengths are customer connection, communication, and computational thinking. 
+          She fosters thoughtful and supportive conditions in any environment.</p> 
+      
+      <p>Arin brings global awareness to her work with proficiency in English, Mandarin, and French. She values service and corresponds with incarcerated women, volunteers 
+          with garden centers, and forages for others. She is especially passionate about science fiction and science communication, fields where imagination and precision intersect.</p>
+    </div>
+
+    <a href="Arin-Chambers-Resume.pdf" download class="download">Download Resume</a>
+    
+    
+  </div>
+</body>
+</html>
